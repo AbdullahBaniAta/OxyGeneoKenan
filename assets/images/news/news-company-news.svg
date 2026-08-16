@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" role="img" aria-labelledby="nCoTitle">
+  <title id="nCoTitle">أخبار الشركة</title>
+  <rect width="400" height="225" fill="#0a1628"/>
+  <rect x="60" y="70" width="90" height="120" fill="#4a5b6b"/>
+  <rect x="160" y="40" width="90" height="150" fill="#8ea0af"/>
+  <rect x="260" y="90" width="80" height="100" fill="#64798c"/>
+  <g fill="#eef2f5" opacity="0.85">
+    <rect x="75" y="85" width="14" height="14"/><rect x="100" y="85" width="14" height="14"/>
+    <rect x="75" y="110" width="14" height="14"/><rect x="100" y="110" width="14" height="14"/>
+    <rect x="178" y="55" width="14" height="14"/><rect x="205" y="55" width="14" height="14"/>
+    <rect x="178" y="80" width="14" height="14"/><rect x="205" y="80" width="14" height="14"/>
+    <rect x="178" y="105" width="14" height="14"/><rect x="205" y="105" width="14" height="14"/>
+    <rect x="278" y="105" width="14" height="14"/><rect x="303" y="105" width="14" height="14"/>
+  </g>
+  <rect x="0" y="190" width="400" height="35" fill="#e0632c"/>
+  <text x="20" y="213" font-family="Inter, sans-serif" font-size="14" font-weight="800" fill="#fff">COMPANY NEWS</text>
+</svg>

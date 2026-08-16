@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="pIndOxTitle">
+  <title id="pIndOxTitle">أسطوانة أكسجين صناعية</title>
+  <ellipse cx="150" cy="268" rx="70" ry="10" fill="#0f2138" opacity="0.08"/>
+  <rect x="105" y="60" width="90" height="200" rx="20" fill="#16324a"/>
+  <rect x="122" y="26" width="56" height="38" rx="9" fill="#4a5b6b"/>
+  <rect x="136" y="6" width="28" height="22" rx="6" fill="#8ea0af"/>
+  <circle cx="150" cy="6" r="9" fill="#8ea0af"/>
+  <rect x="105" y="120" width="90" height="14" fill="#e0632c"/>
+  <rect x="105" y="200" width="90" height="8" fill="#8ea0af" opacity="0.5"/>
+  <text x="150" y="180" font-family="Inter, sans-serif" font-size="20" font-weight="800" fill="#eef2f5" text-anchor="middle">O2</text>
+</svg>

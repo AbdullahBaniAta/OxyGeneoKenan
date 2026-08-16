@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-labelledby="sConsultTitle">
+  <title id="sConsultTitle">استشارات اختيار الأسطوانة المناسبة</title>
+  <rect width="300" height="200" fill="#eef1f4"/>
+  <rect x="55" y="55" width="120" height="85" rx="14" fill="#16324a"/>
+  <polygon points="80,140 80,160 105,140" fill="#16324a"/>
+  <circle cx="90" cy="97" r="6" fill="#e0632c"/>
+  <circle cx="115" cy="97" r="6" fill="#8ea0af"/>
+  <circle cx="140" cy="97" r="6" fill="#8ea0af"/>
+  <g transform="translate(225 110)">
+    <circle r="38" fill="#fff" stroke="#c81e2c" stroke-width="4"/>
+    <text x="0" y="10" font-family="Inter, sans-serif" font-size="34" font-weight="800" fill="#c81e2c" text-anchor="middle">?</text>
+  </g>
+</svg>

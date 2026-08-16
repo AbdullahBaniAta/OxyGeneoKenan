@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-labelledby="sRentTitle">
+  <title id="sRentTitle">تأجير أسطوانات الغاز</title>
+  <rect width="300" height="200" fill="#eef1f4"/>
+  <rect x="70" y="45" width="50" height="130" rx="14" fill="#8ea0af"/>
+  <rect x="180" y="45" width="50" height="130" rx="14" fill="#16324a"/>
+  <rect x="80" y="25" width="30" height="20" rx="5" fill="#64798c"/>
+  <rect x="190" y="25" width="30" height="20" rx="5" fill="#4a5b6b"/>
+  <g fill="none" stroke="#e0632c" stroke-width="6" stroke-linecap="round">
+    <path d="M135 70 a 30 30 0 0 1 30 -18"/>
+    <path d="M165 52 l 10 -4 l 2 11"/>
+    <path d="M165 130 a 30 30 0 0 1 -30 18"/>
+    <path d="M135 148 l -10 4 l -2 -11"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" role="img" aria-labelledby="nNewTitle">
+  <title id="nNewTitle">إطلاق منتجات جديدة</title>
+  <rect width="400" height="225" fill="#0f2138"/>
+  <rect x="150" y="40" width="60" height="150" rx="16" fill="#ffffff"/>
+  <rect x="163" y="18" width="34" height="26" rx="7" fill="#c9d3da"/>
+  <rect x="150" y="90" width="60" height="12" fill="#c81e2c"/>
+  <g stroke="#e0632c" stroke-width="4" stroke-linecap="round">
+    <line x1="230" y1="115" x2="255" y2="115"/>
+    <line x1="225" y1="95" x2="248" y2="85"/>
+    <line x1="225" y1="135" x2="248" y2="145"/>
+  </g>
+  <circle cx="270" cy="60" r="5" fill="#e0632c"/>
+  <circle cx="290" cy="90" r="4" fill="#c81e2c"/>
+  <text x="20" y="205" font-family="Inter, sans-serif" font-size="14" font-weight="800" fill="#eef2f5" opacity="0.6">NEW PRODUCTS</text>
+</svg>

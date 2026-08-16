@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" role="img" aria-labelledby="sSellTitle">
+  <title id="sSellTitle">بيع أسطوانات الأكسجين</title>
+  <rect width="300" height="200" fill="#eef1f4"/>
+  <rect x="90" y="30" width="55" height="150" rx="16" fill="#ffffff" stroke="#c9d3da" stroke-width="3"/>
+  <rect x="102" y="10" width="31" height="22" rx="6" fill="#8ea0af"/>
+  <rect x="90" y="70" width="55" height="10" fill="#c81e2c"/>
+  <rect x="160" y="55" width="55" height="125" rx="16" fill="#16324a"/>
+  <rect x="172" y="35" width="31" height="22" rx="6" fill="#4a5b6b"/>
+  <rect x="160" y="95" width="55" height="10" fill="#e0632c"/>
+  <circle cx="245" cy="150" r="26" fill="#c81e2c"/>
+  <text x="245" y="158" font-family="Inter, sans-serif" font-size="22" font-weight="800" fill="#fff" text-anchor="middle">$</text>
+</svg>

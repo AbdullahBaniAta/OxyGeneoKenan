@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" role="img" aria-labelledby="nSafeTitle">
+  <title id="nSafeTitle">نصائح السلامة</title>
+  <rect width="400" height="225" fill="#16324a"/>
+  <path d="M200 30 L255 55 V115 C255 155 230 180 200 195 C170 180 145 155 145 115 V55 Z" fill="#ffffff"/>
+  <path d="M200 30 L255 55 V115 C255 155 230 180 200 195 C170 180 145 155 145 115 V55 Z" fill="none" stroke="#c81e2c" stroke-width="4"/>
+  <path d="M178 112 l16 16 l 30 -34" fill="none" stroke="#c81e2c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="20" y="205" font-family="Inter, sans-serif" font-size="14" font-weight="800" fill="#eef2f5" opacity="0.6">SAFETY TIPS</text>
+</svg>

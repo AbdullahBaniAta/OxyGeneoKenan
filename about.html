@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<script>
+(function () {
+  try {
+    var lang = localStorage.getItem("kenan_lang");
+    if (lang !== "en" && lang !== "ar") lang = "ar";
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+    document.documentElement.className = lang === "ar" ? "lang-ar" : "lang-en";
+  } catch (e) {}
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>من نحن | كنان لأسطوانات الغاز</title>
+<meta name="description" content="تعرف على قصة كنان لأسطوانات الغاز، رؤيتنا، رسالتنا، وقيمنا في مجال بيع وتوريد أسطوانات الغاز الطبية والصناعية.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="من نحن | كنان لأسطوانات الغاز">
+<meta property="og:description" content="قصتنا، رؤيتنا، رسالتنا، وقيمنا في مجال بيع وتوريد أسطوانات الغاز.">
+<meta property="og:image" content="assets/images/about/about-team.svg">
+<meta property="og:locale" content="ar_JO">
+<link rel="icon" href="assets/images/logo/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&amp;family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="lang-ar" data-page="about">
+<a href="#main-content" class="skip-link" data-i18n="nav.home">الرئيسية</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="كنان لأسطوانات الغاز">
+      <img src="assets/images/logo/logo-light.svg" alt="شعار كنان لأسطوانات الغاز" width="130" height="36" loading="eager">
+    </a>
+    <nav class="main-nav" aria-label="التنقل الرئيسي">
+      <ul class="nav-list">
+        <li><a href="index.html" data-i18n="nav.home">الرئيسية</a></li>
+        <li><a href="services.html" data-i18n="nav.services">خدماتنا</a></li>
+        <li><a href="news.html" data-i18n="nav.news">الأخبار</a></li>
+        <li><a href="about.html" aria-current="page" data-i18n="nav.about">من نحن</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">تواصل معنا</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="اختيار اللغة / Language selection">
+        <button type="button" data-lang="ar" aria-pressed="true">العربية</button>
+        <button type="button" data-lang="en" aria-pressed="false">English</button>
+      </div>
+      <a class="btn btn-primary header-cta" href="tel:+962776104645" data-company-phone-link data-i18n="nav.cta">اتصل بنا</a>
+      <button type="button" class="hamburger" aria-expanded="false" aria-controls="mainNav" aria-label="فتح القائمة">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+
+  <section class="hero about-hero" style="padding-block:3.5rem">
+    <div class="container fade-in-up">
+      <span class="section-eyebrow" data-i18n="page.about.eyebrow">من نحن</span>
+      <h1 style="color:#fff" data-i18n="page.about.title">من نحن</h1>
+      <p class="lead" style="color:var(--color-text-on-dark-muted)" data-i18n="page.about.lead">نحن شركة رائدة في بيع وتوريد أسطوانات الغاز الطبية والصناعية...</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="grid grid-2" style="align-items:center;gap:var(--space-8)">
+        <div class="about-image-wrap fade-in-up">
+          <img src="assets/images/about/about-team.svg" alt="فريق العمل في منشأة تخزين وتوريد أسطوانات الغاز" width="500" height="400" loading="lazy">
+        </div>
+        <div class="about-sections fade-in-up">
+          <div class="about-block">
+            <h2><span class="dot"></span><span data-i18n="about.story.title">قصتنا</span></h2>
+            <p data-i18n="about.story.desc">بدأت شركتنا برؤية واضحة...</p>
+          </div>
+          <div class="about-block">
+            <h2><span class="dot"></span><span data-i18n="about.vision.title">رؤيتنا</span></h2>
+            <p data-i18n="about.vision.desc">أن نكون الخيار الأول والأكثر ثقة...</p>
+          </div>
+          <div class="about-block">
+            <h2><span class="dot"></span><span data-i18n="about.mission.title">رسالتنا</span></h2>
+            <p data-i18n="about.mission.desc">تزويد عملائنا بأسطوانات غاز عالية الجودة...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light">
+    <div class="container">
+      <div class="section-head fade-in-up">
+        <h2 class="section-heading" data-i18n="about.values.title">قيمنا</h2>
+      </div>
+      <ul class="values-list fade-in-up">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12 6 6L20 6"/></svg>
+          <span data-i18n="about.values.quality">الجودة</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12 6 6L20 6"/></svg>
+          <span data-i18n="about.values.safety">السلامة</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12 6 6L20 6"/></svg>
+          <span data-i18n="about.values.reliability">الموثوقية</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12 6 6L20 6"/></svg>
+          <span data-i18n="about.values.transparency">الشفافية</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12 6 6L20 6"/></svg>
+          <span data-i18n="about.values.customerService">خدمة العملاء</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12 6 6L20 6"/></svg>
+          <span data-i18n="about.values.continuousImprovement">التطور المستمر</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bg-dark">
+    <div class="container">
+      <div class="section-head center fade-in-up">
+        <h2 data-i18n="about.stats.title">أرقام تتحدث عنا</h2>
+      </div>
+      <div class="grid stats-grid fade-in-up">
+        <div class="stat-card">
+          <span class="stat-number">+10</span>
+          <span class="stat-label" data-i18n="about.stats.experience">سنوات خبرة</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">+500</span>
+          <span class="stat-label" data-i18n="about.stats.clients">عميل</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">+1000</span>
+          <span class="stat-label" data-i18n="about.stats.cylinders">أسطوانة تم توريدها</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label" data-i18n="about.stats.support">دعم العملاء</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="footer-brand">
+          <img src="assets/images/logo/logo-light.svg" alt="شعار كنان لأسطوانات الغاز" width="120" height="34" loading="lazy">
+        </a>
+        <p data-i18n="footer.about">شركة متخصصة في بيع وتوريد أسطوانات الغاز الطبية والصناعية بأعلى معايير الجودة والسلامة.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.linksTitle">روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="services.html" data-i18n="nav.services">خدماتنا</a></li>
+          <li><a href="news.html" data-i18n="nav.news">الأخبار</a></li>
+          <li><a href="about.html" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contactTitle">تواصل معنا</h4>
+        <ul class="footer-contact">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 2 6a2 2 0 0 1 2-2Z"/></svg>
+            <a href="tel:+962776104645" data-company-phone-link data-company-phone-text>+962776104645</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <a href="mailto:baniataabdallah0@gmail.com" data-company-email-link data-company-email-text>baniataabdallah0@gmail.com</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-7.4 7-12.5A7 7 0 0 0 5 9.5C5 14.6 12 22 12 22Z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+            <span data-company-address-ar>عمّان، الأردن</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.socialTitle">تابعنا</h4>
+        <div class="footer-social">
+          <a href="#" target="_blank" rel="noopener" aria-label="Facebook" data-social-facebook><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V9c0-.9.2-1.5 1.6-1.5h1.6V4.7C15.9 4.6 15 4.5 13.9 4.5c-2.4 0-4 1.5-4 4.1v2.3H7.2V13h2.7v9h3.6Z"/></svg></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="Instagram" data-social-instagram><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn" data-social-linkedin><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.9 8.4H3.6V20h3.3V8.4ZM5.3 3.6a1.9 1.9 0 1 0 0 3.8 1.9 1.9 0 0 0 0-3.8ZM20.4 20h-3.3v-6.3c0-1.5-.5-2.5-1.9-2.5-1 0-1.6.7-1.9 1.4-.1.2-.1.6-.1.9V20H10s0-10.7 0-11.6h3.2v1.6c.4-.7 1.2-1.7 3-1.7 2.2 0 3.9 1.4 3.9 4.5V20Z"/></svg></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="WhatsApp" data-social-whatsapp><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20Zm4.4-5.9c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.2-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3Z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p style="margin:0">© <span data-current-year>2026</span> <span data-i18n="footer.companyPlaceholder">كنان لأسطوانات الغاز</span>. <span data-i18n="footer.rights">جميع الحقوق محفوظة</span> · © <span data-current-year>2026</span> كنان لأسطوانات الغاز. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
